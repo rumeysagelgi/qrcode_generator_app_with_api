@@ -66,7 +66,7 @@ export default function Home() {
         onChange={(e) => setForeColor(e.target.value)}
       ></input>
       <select
-        className="text-primary text-base md:text-xs w-1/2 md:w-4/5 p-3 mt-4 mb-6 bg-secondary border-double border-b-4 border-b-primary border-r-4 border-r-primary rounded outline-none"
+        className="text-primary text-base md:text-xs w-1/2 md:w-4/5 mt-4 mb-6 bg-secondary border-double border-b-4 border-b-primary border-r-4 border-r-primary rounded outline-none"
         onChange={(e) => setLevel(e.target.value)}>
         <option value="" disabled selected>Select error correction level (default is M)</option>
         <option value="L">Low 7%</option>
