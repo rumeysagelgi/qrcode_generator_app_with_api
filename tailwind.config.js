@@ -4,7 +4,7 @@ module.exports = {
   darkMode: false,
   theme: {
     screens: {
-      md: { max: "850px" },
+      md: { max: "767px" },
     },
     fontFamily: {
       ojuju: ["Ojuju", "sans-serif"],
