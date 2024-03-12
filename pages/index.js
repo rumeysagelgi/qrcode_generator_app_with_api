@@ -68,11 +68,11 @@ export default function Home() {
       <select
         className="text-primary text-base md:text-xs w-1/2 md:w-4/5 p-3 mt-4 mb-6 bg-secondary border-double border-b-4 border-b-primary border-r-4 border-r-primary rounded outline-none"
         onChange={(e) => setLevel(e.target.value)}>
-        <option value="" disabled selected>Select error correction level (default is M)</option>
-        <option value="L">Low 7%</option>
-        <option value="M">Medium 15%</option>
-        <option value="Q">Quartile 25%</option>
-        <option value="H">High 30%</option>
+        <option value="" disabled selected className="p-3">Select error correction level (default is M)</option>
+        <option value="L" className="p-3">Low 7%</option>
+        <option value="M" className="p-3">Medium 15%</option>
+        <option value="Q" className="p-3">Quartile 25%</option>
+        <option value="H" className="p-3">High 30%</option>
       </select>
       <button
         className="bg-primary text-secondary text-2xl md:text-lg font-dosis uppercase mt-10 mb-10 p-4 rounded border-dashed border-secondary border-2 inline-flex hover:opacity-80"
